@@ -1,0 +1,8 @@
+﻿Entity Framework Design
+https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Design/3.1.3?_src=template
+
+NewtonsoftJson
+https://www.nuget.org/packages/Microsoft.AspNetCore.Mvc.NewtonsoftJson/3.1.3?_src=template
+
+Automapper
+https://www.nuget.org/packages/AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0?_src=template

@@ -1,0 +1,12 @@
+﻿Entity Framewor Sql Server
+https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/3.1.3?_src=template
+
+Entity Framework tools
+https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Tools/3.1.3?_src=template
+{
+	Permmite ejecutar el scaffold:
+	Scaffold-DbContext "Server=(localdb)\MSSQLLocalDB;Database=SocialMedia;Integrated Security = true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data
+}
+
+Automapper
+https://www.nuget.org/packages/AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0?_src=template
