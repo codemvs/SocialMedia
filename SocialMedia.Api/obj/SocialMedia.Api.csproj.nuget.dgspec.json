@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Api\\SocialMedia.Api.csproj": {}
+    "C:\\GitHub\\SocialMedia\\SocialMedia.Api\\SocialMedia.Api.csproj": {}
   },
   "projects": {
-    "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Api\\SocialMedia.Api.csproj": {
+    "C:\\GitHub\\SocialMedia\\SocialMedia.Api\\SocialMedia.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Api\\SocialMedia.Api.csproj",
+        "projectUniqueName": "C:\\GitHub\\SocialMedia\\SocialMedia.Api\\SocialMedia.Api.csproj",
         "projectName": "SocialMedia.Api",
-        "projectPath": "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Api\\SocialMedia.Api.csproj",
+        "projectPath": "C:\\GitHub\\SocialMedia\\SocialMedia.Api\\SocialMedia.Api.csproj",
         "packagesPath": "C:\\Users\\git\\.nuget\\packages\\",
-        "outputPath": "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Api\\obj\\",
+        "outputPath": "C:\\GitHub\\SocialMedia\\SocialMedia.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,11 +31,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj": {
-                "projectPath": "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj"
+              "C:\\GitHub\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj": {
+                "projectPath": "C:\\GitHub\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj"
               },
-              "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Infraestructure\\SocialMedia.Infraestructure.csproj": {
-                "projectPath": "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Infraestructure\\SocialMedia.Infraestructure.csproj"
+              "C:\\GitHub\\SocialMedia\\SocialMedia.Infraestructure\\SocialMedia.Infraestructure.csproj": {
+                "projectPath": "C:\\GitHub\\SocialMedia\\SocialMedia.Infraestructure\\SocialMedia.Infraestructure.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj": {
+    "C:\\GitHub\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj",
+        "projectUniqueName": "C:\\GitHub\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj",
         "projectName": "SocialMedia.Core",
-        "projectPath": "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj",
+        "projectPath": "C:\\GitHub\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj",
         "packagesPath": "C:\\Users\\git\\.nuget\\packages\\",
-        "outputPath": "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Core\\obj\\",
+        "outputPath": "C:\\GitHub\\SocialMedia\\SocialMedia.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -144,14 +144,14 @@
         }
       }
     },
-    "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Infraestructure\\SocialMedia.Infraestructure.csproj": {
+    "C:\\GitHub\\SocialMedia\\SocialMedia.Infraestructure\\SocialMedia.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Infraestructure\\SocialMedia.Infraestructure.csproj",
+        "projectUniqueName": "C:\\GitHub\\SocialMedia\\SocialMedia.Infraestructure\\SocialMedia.Infraestructure.csproj",
         "projectName": "SocialMedia.Infraestructure",
-        "projectPath": "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Infraestructure\\SocialMedia.Infraestructure.csproj",
+        "projectPath": "C:\\GitHub\\SocialMedia\\SocialMedia.Infraestructure\\SocialMedia.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\git\\.nuget\\packages\\",
-        "outputPath": "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Infraestructure\\obj\\",
+        "outputPath": "C:\\GitHub\\SocialMedia\\SocialMedia.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -171,8 +171,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj": {
-                "projectPath": "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj"
+              "C:\\GitHub\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj": {
+                "projectPath": "C:\\GitHub\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj"
               }
             }
           }
@@ -190,6 +190,18 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",

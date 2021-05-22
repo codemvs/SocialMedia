@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using SocialMedia.Core.DTOs;
 using SocialMedia.Core.Entities;
 using SocialMedia.Core.Interfaces;
-using SocialMedia.Infraestructure.Repositories;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

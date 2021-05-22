@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yEHrwxZ/4LynsWh/AVPc/D0UQ/pbY5/XZeyYtm8rneoe7tfrKC3m56m/Np/MsF28k063131/H3eEZmcC7LyLBQ==",
+  "dgSpecHash": "2PHV6oPfMAXBukjefG5MVCIorZrVJ1e97K2sURGg3emEA+yoPSU4QG3S/Z3wyd9S63A4VGdn+6IPg1fLN42BBA==",
   "success": true,
-  "projectFilePath": "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.IntegrationTests\\SocialMedia.IntegrationTests.csproj",
+  "projectFilePath": "C:\\GitHub\\SocialMedia\\SocialMedia.IntegrationTests\\SocialMedia.IntegrationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\git\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\git\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

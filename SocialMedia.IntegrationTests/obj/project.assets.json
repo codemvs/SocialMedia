@@ -3477,11 +3477,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.IntegrationTests\\SocialMedia.IntegrationTests.csproj",
+      "projectUniqueName": "C:\\GitHub\\SocialMedia\\SocialMedia.IntegrationTests\\SocialMedia.IntegrationTests.csproj",
       "projectName": "SocialMedia.IntegrationTests",
-      "projectPath": "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.IntegrationTests\\SocialMedia.IntegrationTests.csproj",
+      "projectPath": "C:\\GitHub\\SocialMedia\\SocialMedia.IntegrationTests\\SocialMedia.IntegrationTests.csproj",
       "packagesPath": "C:\\Users\\git\\.nuget\\packages\\",
-      "outputPath": "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.IntegrationTests\\obj\\",
+      "outputPath": "C:\\GitHub\\SocialMedia\\SocialMedia.IntegrationTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj": {}
+    "C:\\GitHub\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj": {}
   },
   "projects": {
-    "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj": {
+    "C:\\GitHub\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj",
+        "projectUniqueName": "C:\\GitHub\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj",
         "projectName": "SocialMedia.Core",
-        "projectPath": "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj",
+        "projectPath": "C:\\GitHub\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj",
         "packagesPath": "C:\\Users\\git\\.nuget\\packages\\",
-        "outputPath": "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.Core\\obj\\",
+        "outputPath": "C:\\GitHub\\SocialMedia\\SocialMedia.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

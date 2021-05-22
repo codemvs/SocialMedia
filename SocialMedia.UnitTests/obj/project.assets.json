@@ -3477,11 +3477,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.UnitTests\\SocialMedia.UnitTests.csproj",
+      "projectUniqueName": "C:\\GitHub\\SocialMedia\\SocialMedia.UnitTests\\SocialMedia.UnitTests.csproj",
       "projectName": "SocialMedia.UnitTests",
-      "projectPath": "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.UnitTests\\SocialMedia.UnitTests.csproj",
+      "projectPath": "C:\\GitHub\\SocialMedia\\SocialMedia.UnitTests\\SocialMedia.UnitTests.csproj",
       "packagesPath": "C:\\Users\\git\\.nuget\\packages\\",
-      "outputPath": "C:\\cursos\\NetCore\\SocialMedia\\SocialMedia.UnitTests\\obj\\",
+      "outputPath": "C:\\GitHub\\SocialMedia\\SocialMedia.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
