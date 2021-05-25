@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using SocialMedia.Api.Responses;
 using SocialMedia.Core.DTOs;
 using SocialMedia.Core.Entities;
 using SocialMedia.Core.Interfaces;
@@ -26,14 +27,18 @@ namespace SocialMedia.Api.Controllers
         {
             var posts = await _postRepository.GetPosts();
             var postsDTO = _mapper.Map<IEnumerable<PostDTO>>(posts);
-            return Ok(postsDTO);
+
+            var response = new ApiResponse<IEnumerable<PostDTO>>(postsDTO);
+
+            return Ok(response);
         }
         [HttpGet("{id}")]
         public async Task<IActionResult> GetPost(int id)
         {
             var post = await _postRepository.GetPostById(id);
             var postDTO = _mapper.Map<PostDTO>(post);
-            return Ok(postDTO);
+            var response = new ApiResponse<PostDTO>(postDTO);
+            return Ok(response);
         }
         [HttpPost]
         public async Task<IActionResult> Post(PostDTO postDTO)
@@ -41,8 +46,28 @@ namespace SocialMedia.Api.Controllers
             var post = _mapper.Map<Post>(postDTO);
             await _postRepository.InsertPost(post);
 
-            return Ok(post);
+            postDTO =_mapper.Map<PostDTO>(post);
+
+            var response = new ApiResponse<PostDTO>(postDTO);
+            return Ok(response);
         }
-       
+       [HttpPut("{id}")]
+        public async Task<IActionResult> Put(int id, PostDTO postDTO)
+        {
+            var post = _mapper.Map<Post>(postDTO);
+            post.PostId = id;
+            var result = await _postRepository.UpdatePost(post);
+            var response = new ApiResponse<bool>(result);
+
+            return Ok(response);
+        }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            
+            var result = await _postRepository.DeletePost(id);
+            var response = new ApiResponse<bool>(result);
+            return Ok(response);
+        }
     }
 }
