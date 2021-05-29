@@ -15,7 +15,7 @@ namespace SocialMedia.Infraestructure.Data.Configurations
            .HasColumnName("IdUsuario");
 
             builder.Property(e => e.FirstName)
-            .HasColumnName("Nombre")
+            .HasColumnName("Nombres")
                 .IsRequired()
                 .HasMaxLength(50)
                 .IsUnicode(false);

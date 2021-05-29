@@ -7,6 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using SocialMedia.Core.Interfaces;
+using SocialMedia.Core.Services;
 using SocialMedia.Infraestructure.Data;
 using SocialMedia.Infraestructure.Filters;
 using SocialMedia.Infraestructure.Repositories;
@@ -42,7 +43,9 @@ namespace SocialMedia.Api
                     opt.UseSqlServer( Configuration.GetConnectionString("SocialMedia") )
                 );
             // Injection Dependencies
+            services.AddTransient<IPostService, PostService>();
             services.AddTransient<IPostRepository, PostRepository>();
+            services.AddTransient<IUserRepository, UserRepository>();
 
             // Configuracion Filters, se registra el filtro asincrono de forma global
             services.AddMvc(opt => opt.Filters.Add<ValidationFilter>())
